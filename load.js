@@ -30,9 +30,9 @@ var defaults = [
 	{
 		"Category": "general",
 		"American": "cell phone",
-		"AmericanForms": "cell phone, cell phones",
-		"British": "mobile phone",
-		"Explanation": "Any of <em>mobile phone</em>, <em>mobile</em>, or just <em>phone</em> are acceptable replacements for American <em>cell phone</em>."
+		"AmericanForms": "cell phone, cell phones, mobile phone, cell, smart phone",
+		"British": "mobile",
+		"Explanation": "Either <em>mobile</em> or <em>phone</em> are acceptable replacements for American <em>cell phone</em>."
 	},
 	{
 		"Category": "general",
@@ -46,14 +46,14 @@ var defaults = [
 		"American": "ass",
 		"AmericanForms": "ass, asses",
 		"British": "arse",
-		"Explanation": "American <em>ass</em> is British <em>arse</em> or <em>bottom</em>."
+		"Explanation": "British English can use either, I'm told it's vibes based."
 	},
 	{
 		"Category": "general",
 		"American": "asshole",
 		"AmericanForms": "asshole, assholes",
-		"British": "arsehole",
-		"Explanation": "As an insult, <em>arse</em> should be used rather than the full <em>arsehole</em>."
+		"British": "arsehole, asshole",
+		"Explanation": "Either <em>asshole</em> or <em>arsehole</em> can be used. As an insult, <em>arse</em> should be used rather than the full <em>arsehole</em>."
 	},
 	{
 		"Category": "general",
@@ -134,10 +134,10 @@ var defaults = [
 	},
 	{
 		"Category": "general",
-		"American": "curse",
-		"AmericanForms": "curse, curses, cursed, cursing",
-		"British": "cuss",
-		"Explanation": "<em>Curse</em> is mostly reserved for witchy things."
+		"American": "cuss",
+		"AmericanForms": "cuss, cussed, cussing, cusses, curse, curses, cursing, cursed",
+		"British": "swear",
+		"Explanation": "Curse is for witchy things. Cuss is seen as generally more American. Swear is the most common."
 	},
 	{
 		"Category": "general",
@@ -227,8 +227,8 @@ var defaults = [
 		"Category": "general",
 		"American": "cop",
 		"AmericanForms": "cop, cops",
-		"British": "policeman",
-		"Explanation": "Also note that a <em>policeman</em> in the U.K. likely does not carry a firearm."
+		"British": "policeman, the police",
+		"Explanation": "<em>The police</em> can be used regardless of the amount of police. Also note that a <em>policeman</em> in the U.K. likely does not carry a firearm."
 	},
 	{
 		"Category": "general",
@@ -242,7 +242,7 @@ var defaults = [
 		"American": "closet",
 		"AmericanForms": "closet, closets",
 		"British": "wardrobe, cupboard",
-		"Explanation": "Instead of built-in <em>closets</em>, furniture <em>wardrobes</em> are more common in the U.K."
+		"Explanation": "Instead of built-in <em>closets</em>, furniture <em>wardrobes</em> are more common in the U.K. Note that <em>wardrobes</em> are specifically for clothes. <em>Cupboard</em> is for anything else used for storage."
 	},
 	{
 		"Category": "food",
@@ -318,15 +318,15 @@ var defaults = [
 		"Category": "appearance",
 		"American": "panties",
 		"AmericanForms": "panties",
-		"British": "knickers",
-		"Explanation": "If <em>Sixteen Candles</em> were a British movie, Samantha would have given The Geek her <em>knickers</em>, not her <em>panties</em>."
+		"British": "knickers, pants",
+		"Explanation": "If <em>Sixteen Candles</em> were a British movie, Samantha would have given The Geek her <em>knickers</em> or her <em>pants</em>, not her <em>panties</em>."
 	},
 	{
 		"Category": "appearance",
 		"American": "plaid",
 		"AmericanForms": "plaid",
-		"British": "check, checked, tartan",
-		"Explanation": "The pattern known as <em>plaid</em> to Americans is <em>check(ed)</em> or <em>tartan</em> (if it&apos;s the Scottish kind) across the pond."
+		"British": "check, checked, tartan, plaid",
+		"Explanation": "The pattern known as <em>plaid</em> to Americans is sometimes <em>check(ed)</em> or <em>tartan</em> (most associated with Scotland and kilts) across the pond."
 	},
 	{
 		"Category": "appearance",
@@ -339,8 +339,8 @@ var defaults = [
 		"Category": "appearance",
 		"American": "wallet",
 		"AmericanForms": "wallet, wallets",
-		"British": "purse",
-		"Explanation": "Women keep money, credit cards, stamps etc. in a <em>purse</em> (U.S. <em>wallet</em>) which lives in their <em>handbag</em>."
+		"British": "wallet, purse",
+		"Explanation": "Women keep money, credit cards, stamps etc. in a <em>purse</em> (U.S. <em>wallet</em>) which lives in their <em>handbag</em>. <em>Wallets</em> are masculine and <em>purses</em> are feminine, but both are flat small things that hold money and cards."
 	},
 	{
 		"Category": "appearance",
@@ -409,7 +409,7 @@ var defaults = [
 		"Category": "general",
 		"American": "pissed",
 		"AmericanForms": "pissed",
-		"British": "drunk",
+		"British": "drunk, pissed, hammered, sloshed, trollyed, smashed, shitfaced",
 		"Explanation": "This is an important one! To get <em>pissed</em> is to get <em>drunk</em>, not <em>angry</em>. But <em>pissed off</em> still means <em>angry</em>."
 	},
 	{
@@ -499,9 +499,9 @@ var defaults = [
 	{
 		"Category": "general",
 		"American": "pinkie",
-		"AmericanForms": "pinkie",
-		"British": "little finger",
-		"Explanation": "Your smallest finger is not a <em>pinkie</em>, it&apos;s just your <em>little finger</em>."
+		"AmericanForms": "pinkie, pinky",
+		"British": "little finger, pinkie, pinky",
+		"Explanation": "This depends on region or something, idk."
 	},
 	{
 		"Category": "general",
@@ -522,7 +522,7 @@ var defaults = [
 		"American": "kindergarten",
 		"AmericanForms": "kindergarten, kindergartens",
 		"British": "nursery school, reception",
-		"Explanation": "British children may attend <em>nursery school</em>, not <em>kindergarten</em>."
+		"Explanation": "British children may attend <em>nursery school</em>, not <em>kindergarten</em>. <em>Nursery school</em> is before <em>Reception</em>, which is the equivalent to 1st grade in U.S."
 	},
 	{
 		"Category": "education",
@@ -549,7 +549,7 @@ var defaults = [
 		"Category": "appearance",
 		"American": "pumps",
 		"AmericanForms": "pumps",
-		"British": "high-heeled shoes, heels",
+		"British": "high-heeled shoes, high-heels, heels",
 		"Explanation": "In England, <em>pumps</em> are flat shoes."
 	},
 	{
@@ -563,8 +563,8 @@ var defaults = [
 		"Category": "general",
 		"American": "bullshit",
 		"AmericanForms": "bullshit",
-		"British": "bollocks",
-		"Explanation": "To express that you think what someone just said is false, use <em>bollocks</em>, not <em>bullshit</em>."
+		"British": "bollocks, bullshit",
+		"Explanation": "To express that you think what someone just said is false, consider using <em>bollocks</em>, not <em>bullshit</em>. (Though <em>bullshit</em> is also used in British English.)"
 	},
 	{
 		"Category": "food",
@@ -640,8 +640,8 @@ var defaults = [
 		"Category": "general",
 		"American": "hickey",
 		"AmericanForms": "hickey, hickeys",
-		"British": "love bite",
-		"Explanation": "A bruise resulting from kissing or sucking on skin is never a <em>hickey</em> in British English, only a <em>love bite</em>."
+		"British": "love bite, hickey",
+		"Explanation": "A bruise resulting from kissing or sucking on skin might be a <em>love bite</em> rather than a <em>hickey</em>. Either is used"
 	},
 	{
 		"Category": "general",
@@ -1215,7 +1215,7 @@ var defaults = [
 		"American": "pedophile",
 		"AmericanForms": "pedo, pedos, pedophile, pedophiles",
 		"British": "nonce",
-		"Explanation": "I've also seen paedophile, though."
+		"Explanation": "I've also seen paedophile, and pedo isn't uncommon. Worth noting that nonce isn’t always meant in the literal. It’s a favourite insult, also see: noncery."
 	},
 	{
 		"Category": "general",
@@ -1253,18 +1253,111 @@ var defaults = [
 		"Explanation": "Not an absolute, but 'more British' than the American forms."
 	},
 	{
-		"Category": "general",
+		"Category": "slang",
 		"American": "isn't it",
 		"AmericanForms": "isn't it, ain't it",
 		"British": "innit",
+		"Explanation": "Is not part of the standard British accent, and is only used in dialogue."
+	},
+	{
+		"Category": "slang",
+		"American": "guys",
+		"AmericanForms": "guys, you guys",
+		"British": "lot, you lot, lads",
+		"Explanation": "Either is used."
+	},
+	{
+		"Category": "slang",
+		"American": "stupid",
+		"AmericanForms": "stupid",
+		"British": "daft",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "sweater",
+		"AmericanForms": "sweater, sweaters",
+		"British": "jumper",
+		"Explanation": "British English may also use sweater (in more modern colloquial) but it means a specific type of jumper. A jumper made of like sweatshirt material, and is fleecy on the inside."
+	},
+
+	{
+		"Category": "general",
+		"American": "alright",
+		"AmericanForms": "alright, you alright",
+		"British": "okay",
+		"Explanation": "<em>Alright?</em> is a general greeting and not someone asking you if you're alright. If being asked about your wellbeing, <em>You okay?</em> is used instead. (Though the full <em>Are you alright?</em> <b>is</b> asking if you're alright.)"
+	},
+	{
+		"Category": "general",
+		"American": "on accident",
+		"AmericanForms": "on accident",
+		"British": "by accident",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "a half hour",
+		"AmericanForms": "a half hour",
+		"British": "half an hour",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "soccer",
+		"AmericanForms": "soccer",
+		"British": "football",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "blinker",
+		"AmericanForms": "blinker, blinkers",
+		"British": "indicator, indicators",
+		"Explanation": "For cars, you use the <em>indicators</em> when you want to turn."
+	},
+	{
+		"Category": "general",
+		"American": "windshield",
+		"AmericanForms": "windshield, windshields",
+		"British": "windscreen",
+		"Explanation": "In a car, a bug hits your <em>windscreen</em>."
+	},
+	{
+		"Category": "general",
+		"American": "",
+		"AmericanForms": "",
+		"British": "",
 		"Explanation": ""
 	},
 	{
 		"Category": "general",
 		"American": "",
-		"AmericanForms": ",",
+		"AmericanForms": "",
 		"British": "",
 		"Explanation": ""
 	},
+	{
+		"Category": "general",
+		"American": "",
+		"AmericanForms": "",
+		"British": "",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "",
+		"AmericanForms": "",
+		"British": "",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "",
+		"AmericanForms": "",
+		"British": "",
+		"Explanation": ""
+	},
+	
 
 ];
