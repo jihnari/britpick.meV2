@@ -7,12 +7,11 @@
 	<link href="img/favicon.ico" rel="shortcut icon" />
 	<!-- Bootstrap -->
 	<link href="bootstrap.min.css" type="text/css" rel="stylesheet" media="screen" />
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
   <script src="bootstrap.min.js"></script>
     <style type="text/css">
       body {
-        padding-top: 60px;
-        padding-bottom: 40px;
+        padding: 60px 20px 40px 20px;
       }
 
       /* Navbar logo left margin (JEB) */
@@ -50,9 +49,10 @@
   <!-- My JavaScript -->
   <script type="text/javascript" src="britpick.js"></script>
   <script type="text/javascript" src="load.js"></script>
-  <script type="text/javascript" src="embiggen.js"></script>
+  <!-- <script type="text/javascript" src="embiggen.js"></script> -->
+
   <!-- Google Analytics -->
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
 
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-37683895-1']);
@@ -64,20 +64,23 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 
-  </script>
+  </script> -->
 </head>
 <body>
+  <!-- ill fix this later maybe  -->
+  
   <div class="container">
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <a class="brand" href="">Britpick.me</a>
           <ul class="nav">
             <li class="divider-vertical"></li>
-            <li class="active" id="start"><a href="#" onClick="recreateIndex();">Start</a></li>
+            <li class="active" id="back to start"><a href="#" onClick="recreateIndex();">Start</a></li>
             <li class="divider-vertical"></li>
             <li id="check"><a href="#blank_check" onClick="createBlankCheck(false);">Check</a></li>
-            <li class="divider-vertical"></li>
-            <li id="customize"><a href="#customize" onClick="createCustomize();">Customize</a></li>
+
+            <!-- <li class="divider-vertical"></li>
+            <li id="customize"><a href="#customize" onClick="createCustomize();">Customize</a></li> -->
           </ul>
           <div class="btn-group pull-right">
                 <a class="btn btn-info dropdown-toggle" data-toggle="dropdown" href="#">Sources
@@ -97,17 +100,19 @@
       </div>
     </div>
   </div>
+
 	<div id="main" class="container-narrow">
-    <div id="splash" class="jumbotron hero-unit">
+    <div>
 	    <h1>Britpick.me</h1>
-      <p></p>
-      <p class="lead">Quick, easy, and customizable Britpicking</p><p>for American (and other non-Brit) fic authors</p>
+      <p>Auto britpicker 2.0</p>
     </div>
+
     <div id="form">
       <form id="target">
-        <legend>Paste your fic in the box:</legend>
-        <span class="help-block">You can paste plain text, rich text, or HTML in the box. For more on how the Britpicker works, see the <a href="newfaq.html">FAQ</a>.</span>
-        <div class="alert" id="nb">
+        <legend>Paste fic in the box:</legend>
+        <!-- <span class="help-block">You can paste plain text, rich text, or HTML in the box. For more on how the Britpicker works, see the <a href="newfaq.html">FAQ</a>.</span> -->
+
+        <!-- <div class="alert" id="nb">
           <button type="button" class="close" data-dismiss="alert">&times;</button>
           <span id="NBmore"><strong>NB:</strong> click for more info/warnings.</span>
           <div id="NBtext" style="display:none;">
@@ -115,17 +120,18 @@
           <p>Many of the suggestions you'll receive from this tool are <em>highly context-dependent</em>. Be sure to read the explanations (click on the green buttons to see them) if you're confused or if the suggestion seems silly&mdash;it might be! You can also choose to ignore a particular item by clicking the blue 'Ignore' button below the explanation.</p>
           <p>This tool is intended as a first-pass Britpicker; it can't handle anything more than the most obvious substitutions, but for me, at least, it's useful to find those pesky places where I write 'bathroom' instead of 'toilet/loo' or 'apartment' instead of 'flat' without ever noticing.</p>
         </div>
-        </div>
+        </div> -->
         <textarea id="fic" class="input-block-level" rows="6" placeholder="Your un-Britpick-ed text" autofocus required></textarea>
         <br/>
-        <button type="submit" class="btn btn-primary btn-large">Britpick it!</button>
+        <button type="submit" class="btn btn-primary btn-large">Britpick, activate</button>
       </form>
     </div>
     <div id="britpicked" class="container-narrow">
       <div id="result"></div>
     </div>
   </div>
-  <div class="container">
+
+  <!-- <div class="container">
     <div class="navbar navbar-fixed-bottom">
       <div class="navbar-inner">
           <ul class="nav pull-right">
@@ -138,6 +144,7 @@
           </ul>
       </div>
     </div>
-  </div>
+  </div> -->
+
 </body>
 </html>

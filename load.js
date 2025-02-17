@@ -323,6 +323,20 @@ var defaults = [
 	},
 	{
 		"Category": "appearance",
+		"American": "pants",
+		"AmericanForms": "pants",
+		"British": "trousers",
+		"Explanation": ""
+	},
+	{
+		"Category": "appearance",
+		"American": "sweatpants",
+		"AmericanForms": "sweatpants",
+		"British": "jogging bottoms, tracksuit bottoms, trackies, joggers",
+		"Explanation": "shrug"
+	},
+	{
+		"Category": "appearance",
 		"American": "plaid",
 		"AmericanForms": "plaid",
 		"British": "check, checked, tartan, plaid",
@@ -1222,12 +1236,12 @@ var defaults = [
 		"American": "aesthetic",
 		"AmericanForms": "aesthetic, aesthetics",
 		"British": "esthetics",
-		"Explanation": "either is fine"
+		"Explanation": "either is fine, one vote said 'I have never seend aestetics in my life', so take that as you will."
 	},
 	{
 		"Category": "general",
 		"American": "licence",
-		"AmericanForms": ",",
+		"AmericanForms": "licence, licences",
 		"British": "license",
 		"Explanation": "British English uses -ce for nouns and -se for verbs. American English tends to use -se for both (though not always, such as advice/advise)"
 	},
@@ -1253,34 +1267,12 @@ var defaults = [
 		"Explanation": "Not an absolute, but 'more British' than the American forms."
 	},
 	{
-		"Category": "slang",
-		"American": "isn't it",
-		"AmericanForms": "isn't it, ain't it",
-		"British": "innit",
-		"Explanation": "Is not part of the standard British accent, and is only used in dialogue."
-	},
-	{
-		"Category": "slang",
-		"American": "guys",
-		"AmericanForms": "guys, you guys",
-		"British": "lot, you lot, lads",
-		"Explanation": "Either is used."
-	},
-	{
-		"Category": "slang",
-		"American": "stupid",
-		"AmericanForms": "stupid",
-		"British": "daft",
-		"Explanation": ""
-	},
-	{
 		"Category": "general",
 		"American": "sweater",
 		"AmericanForms": "sweater, sweaters",
 		"British": "jumper",
 		"Explanation": "British English may also use sweater (in more modern colloquial) but it means a specific type of jumper. A jumper made of like sweatshirt material, and is fleecy on the inside."
 	},
-
 	{
 		"Category": "general",
 		"American": "alright",
@@ -1300,14 +1292,14 @@ var defaults = [
 		"American": "a half hour",
 		"AmericanForms": "a half hour",
 		"British": "half an hour",
-		"Explanation": ""
+		"Explanation": "I personally don't know anyone who says <em>a half hour</em> but I'm told it's a thing."
 	},
 	{
 		"Category": "general",
 		"American": "soccer",
 		"AmericanForms": "soccer",
 		"British": "football",
-		"Explanation": ""
+		"Explanation": "The game with the round black and white ball you kick with your feet is called <em>football</em>."
 	},
 	{
 		"Category": "general",
@@ -1325,39 +1317,446 @@ var defaults = [
 	},
 	{
 		"Category": "general",
-		"American": "",
-		"AmericanForms": "",
-		"British": "",
+		"American": "professor",
+		"AmericanForms": "professor, professors, prof",
+		"British": "lecturer, lecturers",
+		"Explanation": "In university, your teacher isn't a <em>professor</em> he's a <em>lecturer</em>."
+	},
+	{
+		"Category": "general",
+		"American": "get along with",
+		"AmericanForms": "get along with, getting along with, get along",
+		"British": "get on with",
+		"Explanation": "You <em>get on with</em> your friends, rather than <em>getting along</em> with them."
+	},
+	{
+		"Category": "general",
+		"American": "call",
+		"AmericanForms": "call",
+		"British": "ring, phone",
+		"Explanation": "When you're calling someone's phone, you give them a <em>ring</em>, or maybe you <em>phone</em> them."
+	},
+	{
+		"Category": "general",
+		"American": "mail",
+		"AmericanForms": "mail, mailman",
+		"British": "post, postman",
+		"Explanation": "There's no <em>post</em> on Sundays."
+	},
+	{
+		"Category": "general",
+		"American": "package",
+		"AmericanForms": "package, packages",
+		"British": "parcel",
 		"Explanation": ""
 	},
 	{
 		"Category": "general",
-		"American": "",
-		"AmericanForms": "",
-		"British": "",
+		"American": "vacation",
+		"AmericanForms": "vacation, vacations, vacay",
+		"British": "holiday",
 		"Explanation": ""
 	},
 	{
 		"Category": "general",
-		"American": "",
-		"AmericanForms": "",
-		"British": "",
+		"American": "vacationing",
+		"AmericanForms": "vacationing",
+		"British": "go on holiday",
 		"Explanation": ""
 	},
 	{
 		"Category": "general",
-		"American": "",
-		"AmericanForms": "",
-		"British": "",
+		"American": "half past",
+		"AmericanForms": "half past",
+		"British": "half",
+		"Explanation": "When talking about time, 10:30 is <em>half</em> ten not <em>half past</em> ten."
+	},
+	{
+		"Category": "general",
+		"American": "monday through friday",
+		"AmericanForms": "monday through friday",
+		"British": "monday to friday",
+		"Explanation": "i should flag every instance of this but oof"
+	},
+	{
+		"Category": "general",
+		"American": "sign in",
+		"AmericanForms": "sign in, signing in",
+		"British": "sign on, signing on",
 		"Explanation": ""
 	},
 	{
 		"Category": "general",
-		"American": "",
-		"AmericanForms": "",
-		"British": "",
+		"American": "addicting",
+		"AmericanForms": "addicting",
+		"British": "addictive",
+		"Explanation": "i may need more explaination on these. The American <em>addicting</em> becomes <em>addictive</em> and <em>addictive</em> becomes <em>moreish</em>?"
+	},
+	{
+		"Category": "general",
+		"American": "addictive",
+		"AmericanForms": "addictive",
+		"British": "moreish",
+		"Explanation": "i may need more explaination on these. The American <em>addicting</em> becomes <em>addictive</em> and <em>addictive</em> becomes <em>moreish</em>?"
+	},
+	{
+		"Category": "general",
+		"American": "zucchini",
+		"AmericanForms": "zucchini, zucchinis",
+		"British": "courgette, courgettes",
 		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "eggplant",
+		"AmericanForms": "eggplant, eggplants",
+		"British": "aubergine",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "arugula",
+		"AmericanForms": "arugula",
+		"British": "rocket",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "cilantro",
+		"AmericanForms": "cilantro",
+		"British": "coriander",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "squishy",
+		"AmericanForms": "squishy",
+		"British": "squidgy",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "kiddie pool",
+		"AmericanForms": "kiddie pool",
+		"British": "paddling pool",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "rain boots",
+		"AmericanForms": "rain boots",
+		"British": "wellies, wellington boots",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "crack your knuckles",
+		"AmericanForms": "crack your knuckles, cracks his knuckles, cracked his knuckles, crack his knuckles, cracks her knuckles, cracked her knuckles, crack her knuckles",
+		"British": "click your knuckles",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "eraser",
+		"AmericanForms": "eraser, erasers",
+		"British": "rubber",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "rubber",
+		"AmericanForms": "rubber",
+		"British": "condom",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "erase",
+		"AmericanForms": "erase, erase it, erases it, erased it",
+		"British": "rub it out",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "crosswalk",
+		"AmericanForms": "crosswalk, crosswalks",
+		"British": "zebra crossing, pelican crossing, puffin crossing, toucan crossings",
+		"Explanation": "A <em>zebra crossing</em> is black and white crossings with a zigzag line on the road. A <em>pelican crossing</em> is a controlled crossing with a flashing amber light. A <em>puffin crossing</em> is an intelligent crossing with a sensor that detects when people are on the crossing. A <em>toucan crossing</em> is a controlled crossing for cyclists and pedestrians. (Real British people don't remember these.)"
+	},
+	{
+		"Category": "general",
+		"American": "crossing guard",
+		"AmericanForms": "crossing guard, crossing guards",
+		"British": "lollipop man, lollipop lady",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "oatmeal",
+		"AmericanForms": "oatmeal",
+		"British": "porridge",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "commercial",
+		"AmericanForms": "commercial, commercials, advertisement, advertisements, ad",
+		"British": "advert",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "baby fever",
+		"AmericanForms": "baby fever",
+		"British": "broody",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "flavorful",
+		"AmericanForms": "flavorful",
+		"British": "flavoursome",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "dog-eared",
+		"AmericanForms": "dog-ear, dog-eared, dog-earing",
+		"British": "folded page",
+		"Explanation": "\"Do you need a bookmark?\" \"Nah, I just <em>fold the page</em>.\" or \"I left off at the <em>folded page</em>.\""
+	},
+	{
+		"Category": "general",
+		"American": "box of berries",
+		"AmericanForms": "box of berries",
+		"British": "punnet of berries",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "the wave",
+		"AmericanForms": "the wave",
+		"British": "Mexican wave",
+		"Explanation": "As in, people lifting their arms consecutively in a crowd. "
+	},
+	{
+		"Category": "general",
+		"American": "tic tac toe",
+		"AmericanForms": "tic tac toe",
+		"British": "noughts and crosses",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "checkout",
+		"AmericanForms": "checkout",
+		"British": "till",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "line",
+		"AmericanForms": "line",
+		"British": "queue",
+		"Explanation": "Specifically for people standing in a <em>queue</em> waiting for something."
+	},
+	{
+		"Category": "general",
+		"American": "cutting it close",
+		"AmericanForms": "cut it close, cutting it close, cuts it close",
+		"British": "cutting it fine",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "December 26",
+		"AmericanForms": "December 26, December 26th, the day after Christmas",
+		"British": "Boxing Day",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "sick",
+		"AmericanForms": "sick",
+		"British": "poorly, ill",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "stopper",
+		"AmericanForms": "stopper",
+		"British": "bung",
+		"Explanation": "The rubber or cork at the top of a bottle to keep the liquid in is called a <em>bung</em>."
+	},
+	{
+		"Category": "general",
+		"American": "supposed to",
+		"AmericanForms": "supposed to",
+		"British": "meant to",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "umbrella",
+		"AmericanForms": "umbrella, umbrellas",
+		"British": "brolly",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "pull the rug out",
+		"AmericanForms": "pull the rug out, pulled the rug out, rug pulled out",
+		"British": "pull the carpet out",
+		"Explanation": "To be surprised, in a bad way."
+	},
+	{
+		"Category": "general",
+		"American": "cigarette",
+		"AmericanForms": "cigarette, cigarettes",
+		"British": "fag, cig",
+		"Explanation": "sorry u_u"
+	},
+	{
+		"Category": "general",
+		"American": "steal",
+		"AmericanForms": "steal, borrow",
+		"British": "bum",
+		"Explanation": "To <em>bum</em> a cig, or <em>bum</em> a light."
+	},
+	{
+		"Category": "general",
+		"American": "dibs",
+		"AmericanForms": "dibs, call dibs",
+		"British": "bagsy",
+		"Explanation": "I <em>bagsy</em> the last packet of rolos."
+	},
+	{
+		"Category": "general",
+		"American": "forgot something at home",
+		"AmericanForms": "forgot something at home",
+		"British": "left something at home",
+		"Explanation": "**need a better way to grab this one"
+	},
+	{
+		"Category": "general",
+		"American": "pick up from school",
+		"AmericanForms": "pick up from school",
+		"British": "collect from school",
+		"Explanation": "**bad grabbing"
+	},
+	{
+		"Category": "general",
+		"American": "starchy",
+		"AmericanForms": "starchy",
+		"British": "stodgy",
+		"Explanation": "**"
 	},
 	
 
+	// slang (for me, but separated out for ease of deleting for you)
+	{
+		"Category": "slang",
+		"American": "isn't it",
+		"AmericanForms": "isn't it, ain't it",
+		"British": "innit",
+		"Explanation": "Is not part of the standard British accent, and is only used in dialogue."
+	},
+	{
+		"Category": "slang",
+		"American": "guys",
+		"AmericanForms": "guys, you guys",
+		"British": "lot, you lot, lads",
+		"Explanation": "Either is used."
+	},
+	{
+		"Category": "slang",
+		"American": "stupid",
+		"AmericanForms": "stupid",
+		"British": "daft",
+		"Explanation": "<em>Daft</em> is a nicer way to say <em>stupid</em>."
+	},
+	{
+		"Category": "slang",
+		"American": "terrified",
+		"AmericanForms": "terrified",
+		"British": "bricking it",
+		"Explanation": ""
+	},
+	{
+		"Category": "slang",
+		"American": "exhausted",
+		"AmericanForms": "exhausted",
+		"British": "knackered",
+		"Explanation": ""
+	},
+	{
+		"Category": "slang",
+		"American": "bad",
+		"AmericanForms": "bad",
+		"British": "grim",
+		"Explanation": ""
+	},
+	{
+		"Category": "slang",
+		"American": "fuck",
+		"AmericanForms": "fuck",
+		"British": "shag",
+		"Explanation": "Specifically the act of, not the insult or the swear."
+	},
+	{
+		"Category": "slang",
+		"American": "slut",
+		"AmericanForms": "slut, hoe",
+		"British": "slag",
+		"Explanation": "British English does use <em>slut</em> also, though <em>slag</em> can be affectionate while <em>slut</em> is less so."
+	},
+	{
+		"Category": "slang",
+		"American": "expensive",
+		"AmericanForms": "expensive",
+		"British": "spenny",
+		"Explanation": ""
+	},
+	{
+		"Category": "slang",
+		"American": "steal",
+		"AmericanForms": "steal, stealing",
+		"British": "nick",
+		"Explanation": ""
+	},
+	{
+		"Category": "slang",
+		"American": "great idea",
+		"AmericanForms": "great idea, good idea",
+		"British": "great shout",
+		"Explanation": ""
+	},
+	{
+		"Category": "slang",
+		"American": "very",
+		"AmericanForms": "very",
+		"British": "bare, proper",
+		"Explanation": "These are interchangable but <em>bare</em> is more London slang."
+	},
+	{
+		"Category": "slang",
+		"American": "crazy",
+		"AmericanForms": "crazy",
+		"British": "mental",
+		"Explanation": ""
+	},
+	{
+		"Category": "slang",
+		"American": "can't be bothered",
+		"AmericanForms": "can't be bothered",
+		"British": "can't be arsed",
+		"Explanation": ""
+	},
+	{
+		"Category": "slang",
+		"American": "nightmare",
+		"AmericanForms": "nightmare",
+		"British": "mare",
+		"Explanation": "If your car broke down, you’re having an absolute <em>mare</em>."
+	}
 ];
