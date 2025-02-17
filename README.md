@@ -1,5 +1,5 @@
 ## HIJACKED
-hi jihn here, hosting this testing purposes but working on a branch of the main project.
+hi jihn here, this is my branch, there is much suffering going on. hoping to overhaul this project soon.
 
 
 # britpick.me
