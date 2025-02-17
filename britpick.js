@@ -183,20 +183,16 @@ var recreateIndex = function() {
 
 var createCheck = function(submitted, noSuggestions) {
 	if (noSuggestions) {
-		$('#britpicked').prepend("<h1 id='britpicked_head'>Your Britpick-ed fic:</h1><p id='britpicked_lead' " +
-			"class='lead'>Britpick.me caught no errant Americanisms. Congratulations!</p><div id='buttons' " +
-			"class='container-narrow btn-toolbar' style='float: right'><button id='embiggen' class='btn btn-primary' " +
-			"onClick=\"embiggen('result');\">Embiggen Text</button></div><br class='britpick_breaks' /><br " +
+		$('#britpicked').prepend("<p id='britpicked_lead' " +
+			"class='lead'>Britpick.me caught no errant Americanisms.</p><br class='britpick_breaks' /><br " +
 			"class='britpick_breaks' />");
 
 		$('#result').html(submitted);
 	}
 	else {
-		$('#britpicked').prepend("<h1 id='britpicked_head'>Your Britpick-ed fic:</h1><p id='britpicked_lead' " +
+		$('#britpicked').prepend("<p id='britpicked_lead' " +
 			"class='lead'>Click on suggested changes (in <del class='tbd text-error'>red</del> <button " +
-			"class='btn btn-success'>green</button>) to learn about why the change is recommended.</p><div " + 
-			"id='buttons' class='container-narrow btn-toolbar' style='float: right'><button id='embiggen' " +
-			"class='btn btn-primary' onClick=\"embiggen('result');\">Embiggen Text</button></div><br " +
+			"class='btn btn-success'>green</button>) to learn about why the change is recommended.</p><br " +
 			"class='britpick_breaks' /><br class='britpick_breaks' /><div class='alert' id='nb'><button type='button' " +
 			"class='close' data-dismiss='alert'>&times;</button><span id='NBmore'><strong>NB:</strong> click for " +
 			"more info/warnings.</span><div id='NBtext' style='display:none;'><br/><p>Many of the suggestions you'll " +
