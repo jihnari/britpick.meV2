@@ -1,9 +1,13 @@
 <html>
+	<link href="img/favicon.ico" rel="shortcut icon" />
+	<!-- Bootstrap -->
+	<link href="bootstrap.min.css" type="text/css" rel="stylesheet" media="screen" />
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="bootstrap.min.js"></script>
 
 <style type="text/css">
   body {
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding: 40px 
   }
 
   /* Navbar logo left margin (JEB) */
@@ -42,34 +46,46 @@
 
 <title>Britpick.me FAQ: 2!</title>
 
-<h1 align="center">Britpick.me</h1>
+<body>
+  <div class="container">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <a class="brand" href="index.html">Britpick.me</a>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div id="main" class="container-narrow"> -->
+    <!-- <div id="splash" class="jumbotron hero-unit"> -->
+
+<h1 align="center">Britpick.me V2</h1>
 <p></p>
-<p align="center">Frequently Asked Questions</p>
+<p align="center"><s>Frequently Asked Questions</s></p>
 <p>You don't get to ask me questions, actually. This fork is for me and me only. You can use it if you'd like, but I'm too tired to be as altruistic as the original author. I'm not even in a British fandom.</p>
-<p>The original FAQ can be found <a href="faq.html">here</a>. I bear no responsibility for it, as it was written by the original author of this project. It contains details about how to use this tool and the limitations of it, etc. I think OP's intentions for the future of this project are neat! I will likely be doing none of that, though, since my javascript knowledge is very bad. I just wanted to check my spelling, you guys. </p>
+<p>The original FAQ can be found <a href="faq.html">here</a>. I bear no responsibility for it, as it was written by the original author of this project. It contains details about how to use this tool, and its limitations. I think OP's intentions for the future of this project are neat! I will likely be doing none of that, as I do not know JavaScript. I did, however, triple the size of the American to British dictionary. </p>
 
 <p>&nbsp;</p>
 
-<p align="center">To Do</p>
-<p>Sooo many things. But let's start with:</p>
-
+<p align="center">TODO list:</p>
 <ul>
-  <li>update dictionary</li>
-  <li>get dictionary sanity checked</li>
-  <li>update bootstrap links</li>
+  <li>update dictionary (in progress)</li>
+  <li><s>get dictionary sanity checked</s></li>
+  <li><s>update bootstrap links</s></li>
   <li>consider ditching bootstrap and doing your own custom style</li>
-  <li>edit index page to have less stuff, offload to faq</li>
-  <li>figure out if buttons are broken bc they never worked, or if theyre broken because bootstrap is missing</li>
-  <li>remove the google analytics tracking stuff</li>
-  <li>consider different levels of checks; &quot;always change&quot; red vs. &quot;sometimes change&quot; orange</li>
-  <li>consider parsing from a txt file or smth</li>
-  <li>figure out if the britpick box is limited to a problematically low number of characters (test a 10k word file)</li>
-  <li>remove embiggen probably (undo is broken and ctrl+ exists)</li>
-  <li>wtf is "check" supposed to do? remove it entirely, possibly</li>
-  <li>remove customize also, prob</li>
-  <li>consider; dialect choices?</li>
-  <li>make it reversable? american to british</li>
-  <li>organize the dictionary lol, have comments about sections also </li>
+  <li><s>edit index page to have less stuff, offload to faq</s></li>
+  <li><s>figure out if buttons are broken bc they never worked, or if theyre broken because bootstrap is missing</s> (it was bootstrap)</li>
+  <li><s>remove the google analytics tracking stuff</s></li>
+  <li>consider attempting to finish the category picker (requires js)</li>
+  <li>consider parsing fic from a txt file or smth</li>
+  <li><s>figure out if the britpick box is limited to a problematically low number of characters (test a 10k word file)</s> works on a 50k word file, i think we're fine</li>
+  <li><s>remove embiggen probably (undo is broken and ctrl+ exists)</s></li>
+  <li><s>remove customize (for now)</s></li>
+  <li>consider dialect choices?</li>
+  <li>make it reversable? american to british (not possible in it's current form, would require a second dictionary file. current dictionary is largely not reversable.)</li>
+  <li>organize the dictionary lol, have comments about sections also (in progress)</li>
+  <li>delete start and check buttons? why do you need them? start goes to index but the logo ALSO goes to index. check does NOTHING except wipe the buffer, which going to index does fine on its own. </li>
+  <li>figure out why live breaks on text with no checks (overflowing/breaking on some load.js entry during the loop at line 51 in britpick.js)</li>
 
   </ul>
   
