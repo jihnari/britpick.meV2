@@ -78,7 +78,7 @@ var defaults = [
 	{
 		"Category": "general",
 		"American": "trash can",
-		"AmericanForms": "trash can, trash cans",
+		"AmericanForms": "trash can, trash cans, trash bin",
 		"British": "bin",
 		"Explanation": "Rubbish goes in a <em>bin</em>."
 	},
@@ -1113,6 +1113,9 @@ var defaults = [
 		"British": "sign on, signing on",
 		"Explanation": ""
 	},
+
+	// **the two of these are going to recursively flag each other and be minorly broken. should account for somehow. but hm. 
+	// the loop SHOULDN'T be looking at words put in by the tool, but it is. 
 	{
 		"Category": "general",
 		"American": "addicting",
@@ -1961,9 +1964,9 @@ var defaults = [
 	{
 		"Category": "slang",
 		"American": "maybe",
-		"AmericanForms": "maybe, perhaps, i might do that",
+		"AmericanForms": "maybe, perhaps, I might do that",
 		"British": "could do",
-		"Explanation": "Not an absolute, but 'more British' than the American forms."
+		"Explanation": "Specifically for dialogue. Not an absolute, but 'more British' than the American forms."
 	},
 	{
 		"Category": "slang",

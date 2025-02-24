@@ -24,12 +24,15 @@ var scrub = function(text) {
 }
 
 var britpick = function(text, toExclude) {
+	var slangBool = document.getElementById("slang").checked; 
 	var noSuggestions = true;
 	var caught = new Array();
 	var toBritpick = new Array();
 	var suggested = new Array();
 	var explanations = new Array();
+	var categories = new Array();
 	var excluded;
+	console.log("slang bool: " + slangBool);
 	for(i = 0; i < defaults.length; i++) {
 		excluded = false;
 		for(j = 0; j < toExclude.length; j++) {
@@ -43,13 +46,21 @@ var britpick = function(text, toExclude) {
 			toBritpick[i] = defaults[i].AmericanForms;
 			suggested[i] = defaults[i].British;
 			explanations[i] = defaults[i].Explanation;
+			categories[i] = defaults[i].Category;
 		}
 		else {
 			toBritpick[i] = "αω";
 		}
 	};
-	for(i = 0; i < toBritpick.length; i++) {
-		if (toBritpick[i].search(',') != -1) {
+
+		
+		for(i = 0; i < toBritpick.length; i++) {
+		
+		// if slang bool is false, don't do correction
+		if (categories[i] == "slang" && !slangBool) {
+			console.log("ignoring slang");
+		}
+		else if (toBritpick[i].search(',') != -1) {
 			toBritpick[i] = toBritpick[i].replace(", ", ",");
 			var options = toBritpick[i].split(',');
 			for (j = 0; j < options.length; j++) {

@@ -45,6 +45,9 @@
       .popover {
         z-index: 1055;
       }
+
+      /* radio button  */
+
     </style>
   <!-- My JavaScript -->
   <script type="text/javascript" src="britpick.js"></script>
@@ -123,9 +126,18 @@
           <p>This tool cannot replace a real live Britpicker, but maybe someday... we can fully automate the British.</p>
         </div>
         </div>
+
+        <label class="container">
+          <input type="checkbox" checked="checked" name="slang" id="slang">
+          <span class="checkmark"></span> check for slang? 
+        </label>
+        <br/>
+
         <!-- why is this resizable??  -->
         <textarea id="fic" class="input-block-level" rows="6" placeholder="Paste your fic here" autofocus required></textarea>
         <br/>
+
+
         <button type="submit" class="btn btn-primary btn-large">Britpick, activate</button>
       </form>
     </div>
