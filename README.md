@@ -1,6 +1,6 @@
 ## HIJACKED
 
-<img max-width=200px src="https://raw.githubusercontent.com/jihnari/britpick.meV2/refs/heads/master/myapp.png"/>
+<img width=200px src="https://raw.githubusercontent.com/jihnari/britpick.meV2/refs/heads/master/myapp.png"/>
 
 
 # britpick.me
