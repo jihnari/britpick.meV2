@@ -1,19 +1,20 @@
 ## HIJACKED
-hi jihn here, this is my branch, there is much suffering going on. hoping to overhaul this project soon.
+
+<img src="https://raw.githubusercontent.com/jihnari/britpick.meV2/refs/heads/master/myapp.png"/>
 
 
 # britpick.me
 ===========
 
-Quick, easy, and customizable Britpicking for American (and other non-Brit) fic authors.
+Quick, easy, and (slightly) customizable Britpicking for non-Brit fic authors.
 
 ## The Story
 
-I got tired of doing endless ⌘-F searches for various Americanisms in my fic, so I threw this little miniature webapp together to automate the process.
+I had no British friends so  I opportunistically hijacked this project. But then I had to get British friends to help me check and update the dictionary... Something something, irony. 
 
 ## The App
 
-Right now, the app is running *entirely* on HTML (with [Twitter's Bootstrap](http://twitter.github.com/bootstrap/) for style) and JavaScript. Restricting the app to front-end technologies alone means I can host it for free here on GitHub, using the [GitHub Project Pages](http://pages.github.com/) feature, but it also limits the features I'm able to add. If you have any questions, suggestions, or would like to contribute code, you can [contact me](mailto:utres.inflati.ambulamus@gmail.com).
+Still uses "Twitter's bootstrap" or something like it? (Twitter is dead and so were some links.) Hosted on GitHub still, [here](https://jihnari.github.io/britpick.meV2/) (has some bugs). If you want to help out with any of the to-do items or tell me I'm doing British English wrong, hit me up on Tumblr or something.
 
 ## License
 
