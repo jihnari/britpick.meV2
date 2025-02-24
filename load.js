@@ -139,14 +139,14 @@ var defaults = [
 		"Explanation": "The English aren&apos;t such big fans of the more metaphorical uses of <em>over</em>."
 	},
 	{
-		"Category": "cars",
+		"Category": "car",
 		"American": "trunk",
 		"AmericanForms": "trunk",
 		"British": "boot",
 		"Explanation": "The luggage compartment in a car is a <em>boot</em>, not a <em>trunk</em>."
 	},
 	{
-		"Category": "cars",
+		"Category": "car",
 		"American": "hood",
 		"AmericanForms": "hood",
 		"British": "bonnet",
@@ -566,11 +566,18 @@ var defaults = [
 		"Explanation": "A child&apos;s teddy bear is a <em>soft toy</em>, not a <em>plushie</em>."
 	},
 	{
-		"Category": "cars",
+		"Category": "car",
 		"American": "parking lot",
 		"AmericanForms": "parking lot, parking lots",
 		"British": "carpark",
 		"Explanation": "You park a car in a <em>carpark</em>, not a <em>parking lot</em>."
+	},
+	{
+		"Category": "car",
+		"American": "put it into park",
+		"AmericanForms": "put it into park, put the car into park, puts the car into park, puts it into park, putting the car into park, putting it into park",
+		"British": "put the gear stick into neutral and put the handbrake up",
+		"Explanation": "Britian uses largely manual cars instead of automatic cars."
 	},
 	{
 		"Category": "general",
@@ -609,13 +616,6 @@ var defaults = [
 	},
 	{
 		"Category": "general",
-		"American": "band-aid",
-		"AmericanForms": "bandaid, bandaids, band-aid, band-aids",
-		"British": "plaster",
-		"Explanation": "You put a <em>plaster</em> on a cut or other small injury, not a <em>band-aid</em>."
-	},
-	{
-		"Category": "general",
 		"American": "flashlight",
 		"AmericanForms": "flashlight, flash light, flashlights, flash lights",
 		"British": "torch",
@@ -645,7 +645,6 @@ var defaults = [
 		"British": "okay",
 		"Explanation": "<em>Alright?</em> is a general greeting and not someone asking you if you're alright. If being asked about your wellbeing, <em>You okay?</em> is used instead. (Though the full <em>Are you alright?</em> <b>is</b> asking if you're alright.)"
 	},
-
 	{
 		"Category": "sports",
 		"American": "soccer",
@@ -673,13 +672,6 @@ var defaults = [
 		"AmericanForms": "professor, professors, prof",
 		"British": "lecturer, lecturers",
 		"Explanation": "In university, your teacher isn't a <em>professor</em> he's a <em>lecturer</em>."
-	},
-	{
-		"Category": "general",
-		"American": "get along with",
-		"AmericanForms": "get along with, getting along with, get along",
-		"British": "get on with",
-		"Explanation": "You <em>get on with</em> your friends, rather than <em>getting along</em> with them."
 	},
 	{
 		"Category": "general",
@@ -716,7 +708,6 @@ var defaults = [
 		"British": "go on holiday",
 		"Explanation": ""
 	},
-
 	{
 		"Category": "general",
 		"American": "zucchini",
@@ -757,13 +748,6 @@ var defaults = [
 		"American": "kiddie pool",
 		"AmericanForms": "kiddie pool",
 		"British": "paddling pool",
-		"Explanation": ""
-	},
-	{
-		"Category": "general",
-		"American": "rain boots",
-		"AmericanForms": "rain boots",
-		"British": "wellies, wellington boots",
 		"Explanation": ""
 	},
 	{
@@ -827,7 +811,7 @@ var defaults = [
 		"American": "baby fever",
 		"AmericanForms": "baby fever",
 		"British": "broody",
-		"Explanation": ""
+		"Explanation": "(I barely understand the American English for this, sorry)"
 	},
 	{
 		"Category": "general",
@@ -848,7 +832,7 @@ var defaults = [
 		"American": "the wave",
 		"AmericanForms": "the wave",
 		"British": "Mexican wave",
-		"Explanation": "As in, people lifting their arms consecutively in a crowd. "
+		"Explanation": "As in, people raising their arms consecutively in a crowd during a sports game or concert. "
 	},
 	{
 		"Category": "general",
@@ -898,13 +882,6 @@ var defaults = [
 		"AmericanForms": "stopper",
 		"British": "bung",
 		"Explanation": "The rubber or cork at the top of a bottle to keep the liquid in is called a <em>bung</em>."
-	},
-	{
-		"Category": "general",
-		"American": "supposed to",
-		"AmericanForms": "supposed to",
-		"British": "meant to",
-		"Explanation": ""
 	},
 	{
 		"Category": "general",
@@ -977,24 +954,38 @@ var defaults = [
 		"Explanation": "For bedding."
 	},
 	{
-		"Category": "general",
+		"Category": "car",
 		"American": "highway",
 		"AmericanForms": "highway, freeway",
 		"British": "motorway",
 		"Explanation": ""
 	},
 	{
-		"Category": "general",
-		"American": "whine",
-		"AmericanForms": "whine, whining, whined, complain, complaining, complained",
-		"British": "whinge",
+		"Category": "car",
+		"American": "intersection",
+		"AmericanForms": "intersection",
+		"British": "junction",
 		"Explanation": ""
 	},
 	{
 		"Category": "general",
-		"American": "head over heels",
-		"AmericanForms": "head over heels, head-over-heels",
-		"British": "arse-over-tit",
+		"American": "tire",
+		"AmericanForms": "tire, tires",
+		"British": "tyre",
+		"Explanation": "n., on a car"
+	},
+	{
+		"Category": "general",
+		"American": "semi-truck",
+		"AmericanForms": "semi, semitruck, semi-truck, semi truck, semi-trucks, semitrucks",
+		"British": "lorry, lorries",
+		"Explanation": "In Britian, the big motorized vehicle used for transporting goods is refered to as a <em>lorry</em> not a <em>semi-truck</em>. In addition, a <em>semi</em> always refers to a half-hard errection."
+	},
+	{
+		"Category": "general",
+		"American": "whine",
+		"AmericanForms": "whine, whining, whined, complain, complaining, complained",
+		"British": "whinge",
 		"Explanation": ""
 	},
 	{
@@ -1011,6 +1002,120 @@ var defaults = [
 		"British": "cakehole",
 		"Explanation": "For mouth, e.g. Shut your <em>cakehole</em>."
 	},
+
+
+	// brand name changes 
+	{
+		"Category": "general",
+		"American": "band-aid",
+		"AmericanForms": "bandaid, bandaids, band-aid, band-aids",
+		"British": "plaster",
+		"Explanation": "You put a <em>plaster</em> on a cut or other small injury, not a <em>band-aid</em>."
+	},
+	{
+		"Category": "general",
+		"American": "rain boots",
+		"AmericanForms": "rain boots",
+		"British": "wellies, wellington boots",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "aspirin",
+		"AmericanForms": "aspirin, aspirins",
+		"British": "paracetamol",
+		"Explanation": "Aspirin is an American brand of painkiller medication, and in Britian paracetamol is the commonly used alternative."
+	},
+	{
+		"Category": "general",
+		"American": "advil",
+		"AmericanForms": "advil, advils",
+		"British": "ibuprofen",
+		"Explanation": "Advil is an American brand of ibupropfen."
+	},
+	{
+		"Category": "general",
+		"American": "cold medicine",
+		"AmericanForms": "cold medicine, cold medication, cold meds, flu medicine",
+		"British": "lemsip",
+		"Explanation": "Lemsip is a British brand of cold medication"
+	},
+	{
+		"Category": "general",
+		"American": "Kleenex",
+		"AmericanForms": "Kleenex, Kleenexes",
+		"British": "tissue",
+		"Explanation": "Kleenex is an American brand of tissues."
+	},
+	{
+		"Category": "general",
+		"American": "realtor",
+		"AmericanForms": "realtor, realtors",
+		"British": "estate agent",
+		"Explanation": "Realtor is actually an American brand name."
+	},
+	{
+		"Category": "general",
+		"American": "scotch tape",
+		"AmericanForms": "scotch tape, tape",
+		"British": "sellotape",
+		"Explanation": "Scotch tape is an American brand."
+	},
+	{
+		"Category": "general",
+		"American": "mace",
+		"AmericanForms": "mace",
+		"British": "pepper spray",
+		"Explanation": "(but also pepper spray is illegal in britain)"
+	},
+	{
+		"Category": "general",
+		"American": "popsicle",
+		"AmericanForms": "popsicle, popsicles",
+		"British": "ice-lolly",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "laundromat",
+		"AmericanForms": "laundromat",
+		"British": "laundrette",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "tupperware",
+		"AmericanForms": "tupperware, tupperware container",
+		"British": "plastic container",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "xerox",
+		"AmericanForms": "xerox",
+		"British": "photocopier",
+		"Explanation": "not sure if anyone is using this word anymore, but I don't work in an office, what would I know"
+	},
+	{
+		"Category": "general",
+		"American": "crock-pot",
+		"AmericanForms": "crock-pot, crockpot",
+		"British": "slow cooker",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "post-it",
+		"AmericanForms": "post-it",
+		"British": "post-it note",
+		"Explanation": "Never JUST a <em>post-it</em> in British English."
+	},
+
+	
+
+
+
+	// idioms 
 	{
 		"Category": "general",
 		"American": "two cents worth",
@@ -1023,6 +1128,13 @@ var defaults = [
 		"American": "beating a dead horse",
 		"AmericanForms": "beating a dead horse, beat a dead horse",
 		"British": "flogging a dead horse",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "head over heels",
+		"AmericanForms": "head over heels, head-over-heels",
+		"British": "arse-over-tit",
 		"Explanation": ""
 	},
 	
@@ -1113,6 +1225,20 @@ var defaults = [
 		"British": "sign on, signing on",
 		"Explanation": ""
 	},
+	{
+		"Category": "general",
+		"American": "supposed to",
+		"AmericanForms": "supposed to",
+		"British": "meant to",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "get along with",
+		"AmericanForms": "get along with, getting along with, get along",
+		"British": "get on with",
+		"Explanation": "You <em>get on with</em> your friends, rather than <em>getting along</em> with them."
+	},
 
 	// **the two of these are going to recursively flag each other and be minorly broken. should account for somehow. but hm. 
 	// the loop SHOULDN'T be looking at words put in by the tool, but it is. 
@@ -1159,6 +1285,7 @@ var defaults = [
   //
 
 	// ize to ise rule 
+	// this is true for all(?) instances of words ending in ize, but we can't just flag on ize. only common words (or words i have personally used and had to correct) are included.
 	{
 		"Category": "general",
 		"American": "realize",
@@ -1215,6 +1342,14 @@ var defaults = [
 		"British": "traumatise",
 		"Explanation": ""
 	},
+	{
+		"Category": "general",
+		"American": "summarize",
+		"AmericanForms": "summarize, summarized, summarizes, summarizing",
+		"British": "summarise",
+		"Explanation": ""
+	},
+
 
 	// yze to yse rule 
 	{
@@ -1250,6 +1385,90 @@ var defaults = [
 		"American": "hydrolyze",
 		"AmericanForms": "hydrolyze, hydrolyzes, hydrolyzed, hydrolyzing",
 		"British": "hydrolyse",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "sterilize",
+		"AmericanForms": "sterilize, sterilized, sterilizes, sterilizing",
+		"British": "sterilise",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "customize",
+		"AmericanForms": "customize, customized, customizes, customizing",
+		"British": "customise",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "authorize",
+		"AmericanForms": "authorize, authorized, authorizes, authorizing",
+		"British": "authorise",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "unauthorize",
+		"AmericanForms": "unauthorize, unauthorized, unauthorizes, unauthorizing",
+		"British": "unauthorise",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "emphasize",
+		"AmericanForms": "emphasize, emphasized, emphasizes, emphasizing",
+		"British": "emphasise",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "criticize",
+		"AmericanForms": "criticize, criticized, criticizes, criticizing",
+		"British": "criticise",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "socialize",
+		"AmericanForms": "socialize, socialized, socializes, socializing",
+		"British": "socialise",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "formalize",
+		"AmericanForms": "formalize, formalized, formalizes, formalizing",
+		"British": "formalise",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "capitalize",
+		"AmericanForms": "capitalize, capitalized, capitalizes, capitalizing",
+		"British": "capitalise",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "sexualize",
+		"AmericanForms": "sexualize, sexualized, sexualizes, sexualizing",
+		"British": "sexualise",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "fantasize",
+		"AmericanForms": "fantasize, fantasized, fantasizes, fantasizing",
+		"British": "fantasise",
+		"Explanation": ""
+	},
+	{
+		"Category": "general",
+		"American": "patronize",
+		"AmericanForms": "patronize, patronized, patronizes, patronizing",
+		"British": "patronize",
 		"Explanation": ""
 	},
 
@@ -1763,13 +1982,6 @@ var defaults = [
 		"AmericanForms": "skeptical, skeptic, skeptics, skeptically",
 		"British": "sceptical",
 		"Explanation": ""
-	},
-	{
-		"Category": "general",
-		"American": "tire",
-		"AmericanForms": "tire, tires",
-		"British": "tyre",
-		"Explanation": "n., on a car"
 	},
 	{
 		"Category": "general",
